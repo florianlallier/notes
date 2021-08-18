@@ -4,64 +4,81 @@
 
 # Titre 1
 
-    # Titre 1
+```markdown
+# Titre 1
+```
 
 ---
 
 ## Titre 2
 
-    ## Titre 2
+```markdown
+## Titre 2
+```
 
 ---
 
 ### Titre 3
 
-    ### Titre 3
+```markdown
+### Titre 3
+```
 
 ---
 
 **Gras**
 
-    **Gras**
-    __Gras__
+```markdown
+**Gras**
+```
 
 ---
 
 *Italique*
 
-    *Italique*
-    _Italique_
+```markdown
+*Italique*
+```
 
 ---
 
 ~~Barré~~
 
-    ~~Barré~~
+```markdown
+~~Barré~~
+```
 
 ---
 
 <https://florianlallier.fr/>
 
-    https://florianlallier.fr/
-    <https://florianlallier.fr/>
+```markdown
+<https://florianlallier.fr/>
+```
 
 ---
 
 [Mon site](https://florianlallier.fr/ "Cliquez ici !")
 
-    [Mon site](https://florianlallier.fr/ "Cliquez ici !")
+```markdown
+[Mon site](https://florianlallier.fr/ "Cliquez ici !")
+```
 
 ---
 
 ![Alt Text](https://raw.githubusercontent.com/florianlallier/florianlallier.github.io/master/assets/images/favicon.ico "Mon favicon")
 
-    ![Alt Text](https://raw.githubusercontent.com/florianlallier/florianlallier.github.io/master/assets/images/favicon.ico "Mon favicon")
+```markdown
+![Alt Text](https://raw.githubusercontent.com/florianlallier/florianlallier.github.io/master/assets/images/favicon.ico "Mon favicon")
+```
 
 ---
 
 `$ echo 'Hello, world!'`
 
-    `$ echo 'Hello, world!'`
+```markdown
+`$ echo 'Hello, world!'`
+```
 
 ---
 
@@ -85,7 +102,7 @@ public class HelloWorld {
 
 > Citation
 
-```
+```markdown
 > Citation
 ```
 
@@ -95,7 +112,7 @@ public class HelloWorld {
     * Sous-élément 1
 * Élément 2
 
-```
+```markdown
 * Élément 1
     * Sous-élément 1
 * Élément 2
@@ -107,7 +124,7 @@ public class HelloWorld {
     1. Sous-élément 1
 2. Élément 2
 
-```
+```markdown
 1. Élément 1
     1. Sous-élément 1
 2. Élément 2
@@ -119,7 +136,7 @@ public class HelloWorld {
     - [ ] Sous-élément 1
 - [x] Élément 2
 
-```
+```markdown
 - [ ] Élément 1
     - [ ] Sous-élément 1
 - [x] Élément 2
@@ -132,7 +149,7 @@ Colonne 1 | Colonne 2 | Colonne 3
 Élément 1 | Élément 3 | Élément 5
 Élément 2 | Élément 4 | Élément 6
 
-```
+```markdown
 Colonne 1 | Colonne 2 | Colonne 3
 --------- | --------- | ---------
 Élément 1 | Élément 3 | Élément 5
@@ -141,8 +158,8 @@ Colonne 1 | Colonne 2 | Colonne 3
 
 ---
 
-:fr:
+:smiley:
 
-```
-:fr:
+```markdown
+:smiley:
 ```
