@@ -80,3 +80,69 @@ public class HelloWorld {
         }
     }
     ```
+
+---
+
+> Citation
+
+```
+> Citation
+```
+
+---
+
+* Élément 1
+    * Sous-élément 1
+* Élément 2
+
+```
+* Élément 1
+    * Sous-élément 1
+* Élément 2
+```
+
+---
+
+1. Élément 1
+    1. Sous-élément 1
+2. Élément 2
+
+```
+1. Élément 1
+    1. Sous-élément 1
+2. Élément 2
+```
+
+---
+
+- [ ] Élément 1
+    - [ ] Sous-élément 1
+- [x] Élément 2
+
+```
+- [ ] Élément 1
+    - [ ] Sous-élément 1
+- [x] Élément 2
+```
+
+---
+
+Colonne 1 | Colonne 2 | Colonne 3
+--------- | --------- | ---------
+Élément 1 | Élément 3 | Élément 5
+Élément 2 | Élément 4 | Élément 6
+
+```
+Colonne 1 | Colonne 2 | Colonne 3
+--------- | --------- | ---------
+Élément 1 | Élément 3 | Élément 5
+Élément 2 | Élément 4 | Élément 6
+```
+
+---
+
+:fr:
+
+```
+:fr:
+```
