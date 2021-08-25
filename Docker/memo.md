@@ -59,10 +59,24 @@ Supprimer une image :
 
 `$ docker rmi hello-world`
 
+Construire une image à partir d'un Dockerfile :
+
+`$ docker build -t myapp .`
+
+Taguer une image :
+
+`$ docker tag myapp:latest florianlallier/myapp:latest`
+
+Pousser une image :
+
+`$ docker push florianlallier/myapp:latest`
+
 ## Liens utiles
 
 <https://www.docker.com/>
 
 <https://docs.docker.com/>
+
+<https://hub.docker.com/>
 
 <https://openclassrooms.com/fr/courses/2035766-optimisez-votre-deploiement-en-creant-des-conteneurs-avec-docker>
