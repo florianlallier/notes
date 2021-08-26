@@ -59,7 +59,7 @@ Supprimer une image :
 
 `$ docker rmi hello-world`
 
-Construire une image à partir d'un Dockerfile :
+Construire une image à partir d'un *Dockerfile* :
 
 `$ docker build -t myapp .`
 
@@ -70,6 +70,32 @@ Taguer une image :
 Pousser une image :
 
 `$ docker push florianlallier/myapp:latest`
+
+## Docker Compose
+
+Démarrer l'ensemble des conteneurs en arrière-plan :
+
+`$ docker-compose up -d`
+
+Voir l'état de la stack :
+
+`$ docker-compose ps`
+
+Afficher les logs de la stack :
+
+`$ docker-compose logs -f --tail 5`
+
+Arrêter les services de la stack :
+
+`$ docker-compose stop`
+
+Détruire les ressources de la stack :
+
+`$ docker-compose down`
+
+Valider la syntaxe du fichier *docker-compose.yml* :
+
+`$ docker-compose config`
 
 ## Liens utiles
 
